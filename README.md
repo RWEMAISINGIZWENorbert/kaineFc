@@ -1,66 +1,66 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Kaine FC Team Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Kaine FC is a Laravel web application designed to manage every aspect of the Kaine FC football team. It provides tools for handling player and staff information, match scheduling and results, attendance tracking, team administration, and detailed reporting.
 
-## About Laravel
+## Features
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- **Player Management:** Create, update, and view player profiles, contracts, medical info, positions, and team assignments.
+- **Staff Management:** Manage staff roles, departments, contact info, qualifications, and employment status.
+- **Team Administration:** Organize teams, assign coaches, manage categories, and track team status.
+- **Match Scheduling & Results:** Schedule matches, record results, and view summaries and highlights.
+- **Attendance Tracking:** Record attendance for players and staff, including check-in/out times and status.
+- **Position & Category Management:** Define and manage player positions and categories for better organization.
+- **Department Management:** Create and manage team departments for staff and players.
+- **Reporting:** Generate reports on player performance, staff attendance, match results, and financials.
+- **User Profiles & Authentication:** Secure login, profile management, password updates, and account deletion.
+- **Dashboard:** View statistics on players, staff, upcoming and recent matches.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Getting Started
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Prerequisites
 
-## Learning Laravel
+- PHP >= 8.0
+- Composer
+- Node.js & npm
+- MySQL or compatible database
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Installation
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+1. Clone the repository:
+   ```powershell
+   git clone https://github.com/RWEMAISINGIZWENorbert/kaineFc.git
+   ```
+2. Install PHP dependencies:
+   ```powershell
+   composer install
+   ```
+3. Install frontend dependencies:
+   ```powershell
+   npm install
+   ```
+4. Copy `.env.example` to `.env` and configure your environment variables.
+5. Generate application key:
+   ```powershell
+   php artisan key:generate
+   ```
+6. Run migrations and seeders:
+   ```powershell
+   php artisan migrate --seed
+   ```
+7. Start the development server:
+   ```powershell
+   php artisan serve
+   ```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Usage
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+- Access the app at `http://localhost:8000`.
+- Log in to manage team data, view reports, and update profiles.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Contributions are welcome! Please submit issues or pull requests for improvements.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This project is open-sourced under the [MIT license](https://opensource.org/licenses/MIT).
