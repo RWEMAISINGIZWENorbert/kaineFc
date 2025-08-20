@@ -2,6 +2,60 @@
 
 Kaine FC is a Laravel web application designed to manage every aspect of the Kaine FC football team. It provides tools for handling player and staff information, match scheduling and results, attendance tracking, team administration, and detailed reporting.
 
+## Tech Stack
+
+### Backend
+- **Framework:** Laravel 10.x
+- **PHP Version:** 8.0+
+- **Database:** MySQL
+- **Authentication:** Laravel Breeze
+- **API:** RESTful API architecture
+
+### Frontend
+- **CSS Framework:** Tailwind CSS
+- **JS Build Tool:** Vite
+- **JavaScript:** Vanilla JS
+- **Icons:** Heroicons
+- **Responsive Design:** Mobile-first approach
+
+### Development Tools
+- **Version Control:** Git
+- **Package Manager:** Composer (PHP), npm (JavaScript)
+- **Development Server:** Laravel's built-in server
+- **Database Version Control:** Laravel Migrations
+- **Seeding:** Laravel Database Seeders
+
+## Project Structure
+```
+kaineFc/
+├── app/                    # Application core code
+│   ├── Console/           # Artisan commands
+│   ├── Exceptions/        # Error handling
+│   ├── Http/             
+│   │   ├── Controllers/   # Request handlers
+│   │   ├── Middleware/    # HTTP middleware
+│   │   └── Requests/      # Form requests
+│   ├── Models/            # Eloquent models
+│   ├── Providers/         # Service providers
+│   └── View/              # View components
+├── config/                # Configuration files
+├── database/
+│   ├── factories/         # Model factories
+│   ├── migrations/        # Database migrations
+│   └── seeders/          # Database seeders
+├── public/                # Publicly accessible files
+├── resources/
+│   ├── css/              # Stylesheets
+│   ├── js/               # JavaScript
+│   └── views/            # Blade templates
+├── routes/                # Application routes
+│   ├── web.php           # Web routes
+│   └── api.php           # API routes
+├── storage/              # Uploaded files, logs, cache
+├── tests/                # Automated tests
+└── vendor/               # Dependencies
+```
+
 ## Features
 
 - **Player Management:** Create, update, and view player profiles, contracts, medical info, positions, and team assignments.
