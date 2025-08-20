@@ -57,6 +57,23 @@ Kaine FC is a Laravel web application designed to manage every aspect of the Kai
 - Access the app at `http://localhost:8000`.
 - Log in to manage team data, view reports, and update profiles.
 
+## Screenshots
+
+### Authentication
+![Authentication Page](screenshots/auth.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Players Management
+![Players List](screenshots/players.png)
+
+### Staff Management
+![Staff List](screenshots/staff.png)
+
+### Add Player/Staff Form
+![Add New Player or Staff](screenshots/add%20player%20or%20staff.png)
+
 ## Contributing
 
 Contributions are welcome! Please submit issues or pull requests for improvements.
